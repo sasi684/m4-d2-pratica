@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Instatiatior2D : MonoBehaviour
+public class Instantiator2D : MonoBehaviour
 {
     [SerializeField] private MeshRenderer _quadPrefab;
     [SerializeField] private Transform _grid;
