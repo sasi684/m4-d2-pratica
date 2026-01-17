@@ -21,7 +21,7 @@ public class ChangeColor : MonoBehaviour
     {
         if(Input.GetMouseButtonDown(1))
         {
-            _meshRenderer.material.SetColor("_BaseColor", default);
+            _meshRenderer.material.SetColor("_BaseColor", Color.white);
         }
 
         if (Input.GetMouseButtonDown(0))
